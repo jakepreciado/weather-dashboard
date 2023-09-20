@@ -1,7 +1,9 @@
 # weather-dashboard
-Weather Dashboard utilizing server-side weather API
+Weather Dashboard utilizing server-side weather API. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. This challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
-##User Story
+Uses the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. 
+
+## User Story
 
 ```md
 AS A traveler
@@ -9,7 +11,7 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
 
-##Acceptance Criteria
+## Acceptance Criteria
 
 ```md
 GIVEN a weather dashboard with form inputs
@@ -27,5 +29,5 @@ THEN I am again presented with current and future conditions for that city
 
 <img src="./assets/images/weather-dashboard.jpg" alt="Homepage displaying current weather in Provo">
 
-##Link
+## Link
 A link to the deployed application: https://jmpre28.github.io/weather-dashboard/
