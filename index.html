@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>Weather Dashboard</h2>
+        </div>
+    </header>
+    <main>      
+        <div class="main">
+            <section class="col-3" id="sideBar">
+                <h1 id="citysearch">Search for a City:</h1>
+                <div>
+                    <input type="text" id="input" placeholder="Search City">
+                    <button class="btn btn-flat btn-rounded" id="searchBtn">Search</button>
+                    <hr>
+                </div>
+                <ul id="listCity">
+                </ul>
+            </section>
+        </div>
+        <div class="col-9" id="displayWeather">
+            <section>
+                <div class="card">
+                    <h1 id="searchedCity">Search a City</h1>
+                    <h4 id="temperature"></h4>
+                    <h4 id="wind"></h4>
+                    <h4 id="humidity"></h4>
+                </div>
+            </section>
+
+            <div id="forecast">
+                <h3>5-Day Forecast:</h3>
+                <div>
+                    <div id="fiveDay" class="d-flex justify-content-between ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section></section>
+    </main>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
