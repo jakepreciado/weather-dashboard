@@ -13,38 +13,41 @@
             <h2>Weather Dashboard</h2>
         </div>
     </header>
-    <main>      
-        <div class="main">
-            <section class="col-3" id="sideBar">
-                <h1 id="citysearch">Search for a City:</h1>
-                <div>
+    <main>   
+        <div class="container-fluid body">   
+            <div class="row">
+                
+                <div class="col-3">
+                    <h1 id="citysearch">Search for a City:</h1>                  
                     <input type="text" id="input" placeholder="Search City">
-                    <button class="btn btn-flat btn-rounded" id="searchBtn">Search</button>
-                    <hr>
+                    <button class="btn btn-primary" id="searchBtn">Search</button>
+                    <hr>                
+                    <ul id="citiesList">
+                    </ul>
                 </div>
-                <ul id="listCity">
-                </ul>
-            </section>
-        </div>
-        <div class="col-9" id="displayWeather">
-            <section>
-                <div class="card">
-                    <h1 id="searchedCity">Search a City</h1>
-                    <h4 id="temperature"></h4>
-                    <h4 id="wind"></h4>
-                    <h4 id="humidity"></h4>
-                </div>
-            </section>
+               
+                <div class="col-9" id="displayWeather">
+                    <section>
+                        <div class="card">
+                            <div class="card-content">
+                                <h1 id="searchedCity">Search a City</h1>
+                                <h4 id="temperature"></h4>
+                                <h4 id="wind"></h4>
+                                <h4 id="humidity"></h4>
+                            </div>
+                        </div>
+                    </section>
 
-            <div id="forecast">
-                <h3>5-Day Forecast:</h3>
-                <div>
-                    <div id="fiveDay" class="d-flex justify-content-between ">
+                    <div class="container mt-5">
+                        <h1>5 Day Forecast</h1>
+                        <div class="row" id="forecastCards">
+                            <!-- Forecast cards will be added here dynamically -->
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
-        <section></section>
     </main>
     
 
