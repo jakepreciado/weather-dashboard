@@ -1,7 +1,7 @@
 # weather-dashboard
-Weather Dashboard utilizing server-side weather API. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. This project was to practice working with API's by building a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+Weather Dashboard utilizing server-side weather API. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. This project was to practice working with API's by building a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. ALso features uses of local storage for user search history and data persistance. 
 
-Uses the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. 
+Uses the [Open Weather API](https://openweathermap.org/forecast5) to retrieve weather data for cities. 
 
 ## User Story
 
