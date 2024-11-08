@@ -30,4 +30,4 @@ THEN I am again presented with current and future conditions for that city
 <img src="./assets/images/weather-dashboard.jpg" alt="Homepage displaying current weather in Provo">
 
 ## Link
-A link to the deployed application: https://jmpre28.github.io/weather-dashboard/
+A link to the deployed application: https://jakepreciado.github.io/weather-dashboard/
